@@ -35,8 +35,8 @@ const Professionalism = () => {
             <p className="mt-4">
                 <p className="overflow-200px">
                 <b>This was a project in my 3rd year of Uni</b>
-                    <br/><br/>This was a project for my module: Creative Technologies Professionalism. We had to write a blog about Freelancing, Creative Industries and Professionalism. Because I was a web student and at that time I had a bit more free time, I though that I would create my own simple blog.
-                    <br/><br/>This project is mostly HTML, working with CSS and producing a blog which is aestheticall pleasing. There is a small amount of JavaScript, that is used to make this blog responsive. The side bar collapses and has a button to expand and collapse again.
+                    <br/><br/>This was a project for my module: Creative Technologies Professionalism. We had to write a blog about Freelancing, Creative Industries and Professionalism. As a web student who at that moment had a bit more free time, I thought that I would create my own simple blog.
+                    <br/><br/>This project is mostly HTML, working with CSS and producing a blog that is aesthetically pleasing. There is a small amount of JavaScript, that is used to make this blog responsive. The sidebar collapses and has a button to expand and collapse again.
                 </p>
                 <small>Last Update: 01/04/2021</small>
             </p>

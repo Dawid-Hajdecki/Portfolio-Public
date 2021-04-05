@@ -38,8 +38,8 @@ const Hissy = () => {
             <p className="mt-4">
                 <p className="overflow-200px">
                 <b>This was a project in my 2nd year of College</b>
-                    <br/><br/>This project was how I actually started with dynamic web development. I was in a Software Development Class and majority of the projects were made in either c# or Java. Until that time, I only coded in plain HTML and something that I hated, was that in plain HTML I didn't understand how to store something in variables; like it's done in C# or Java. After picking hissy as my 2nd year course work, I started to enjoy PHP and dynamic web development.
-                    <br/><br/>This project was focused on creating a web application, where a user could perfom full CRUD on their account. There was also an option to finish quizzes and score some points, but that wasn't fully developed and properly thought out.
+                    <br/><br/>This project was how I actually started with dynamic web development. I was in a Software Development Class and the majority of the projects were made in either C# or Java. Up until that momnet, I had only coded in plain HTML and something that I annoyed me, was the fact that I couldn't understand how to store variables in plain HTML the same way it's done in C# or Java. After picking Hissy as my 2nd-year course work, I started to enjoy PHP and dynamic web development.
+                    <br/><br/>This project was focused on creating a web application, where a user could perform full CRUD on their account. There was also an option to finish quizzes and score some points, but it was never fully developed.
                     <br/><br/>PHP was the main technology used here but I did add a little bit of JavaScript to make the quizzes scoring system function.
                 </p>
                 <small>Last Update: 01/04/2021</small>

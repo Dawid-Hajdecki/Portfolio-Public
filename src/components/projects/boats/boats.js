@@ -35,8 +35,8 @@ const Boats = () => {
             <p className="mt-4">
                 <p className="overflow-200px">
                 <b>This was a group project in my 4th year of Uni</b>
-                    <br/><br/>This was my first project working with React. We split our group into front and back end. This was where I actually started playing around with react but also reminding myself of the basics of HTML and CSS.
-                    <br/><br/>This idea was to create a conference app, where a user could join, create an account and a profile. They were also able to read through the information about the existing conference and the previous conefences.
+                    <br/><br/>This was my first project working with React. We split our group into front and back end. This was where I actually started playing around with React but also reminding myself of the basics of HTML and CSS.
+                    <br/><br/>This idea was to create a conference app, where a user could join, create an account and a profile. They were also able to read through the information about the existing conference and the previous conferences.
                 </p>
                 <small>Last Update: 01/04/2021</small>
             </p>

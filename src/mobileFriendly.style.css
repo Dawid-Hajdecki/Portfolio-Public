@@ -1,7 +1,4 @@
 @media screen and (hover: none){
-    .mobile{
-       display:block;
-    }
     .row.project-technologies-height .col-2{
         display:grid;
     }

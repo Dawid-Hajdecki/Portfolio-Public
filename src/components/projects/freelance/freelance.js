@@ -35,9 +35,9 @@ const Freelance = () => {
             <p className="mt-4">
                 <p className="overflow-200px">
                 <b>This was a freelance project for a family member</b>
-                    <br/><br/>My idea behind this project was to learn a new technology, develop my skills and create something from scratch for a "client". A member of my family needed a portfolio for their university and I took on a challenge to create it.
-                    <br/><br/>This was a fun project, I was trying to use as much new techniques and technologies as possible, creating something that I could showcase and be proud of. Although the development of this project was finished, I didn't find time to compress the images and fill out the lorem ipsum text. So, this project was never actualy used in a university interview.
-                    <br/><br/>Mostly HTML, jQuery was used to show and hide the images.
+                    <br/><br/>My idea behind this project was to learn new technology, develop my skills and create something from scratch for a "client". A member of my family needed a portfolio for their university and I took on a challenge to create it.
+                    <br/><br/>This was a fun project, I was trying to use as many new techniques and technologies as possible, creating something that I could showcase and be proud of. Although the development of this project was finished, I didn't find time to compress the images and fill out the dummy text. So, this project was never actually used in a university interview.
+                    <br/><br/>This project is mostly HTML. jQuery was used to show and hide the images.
                 </p>
                 <small>Last Update: 01/04/2021</small>
             </p>
