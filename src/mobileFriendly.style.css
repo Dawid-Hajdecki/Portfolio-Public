@@ -1,0 +1,73 @@
+@media screen and (hover: none){
+    .mobile{
+       display:block;
+    }
+    .row.project-technologies-height .col-2{
+        display:grid;
+    }
+}
+/* Portrait Mode */ 
+@media screen and (max-width:1200px) and (hover:none) and (orientation: portrait){
+    .background{
+        background-position-x: -600px;
+    }
+}
+@media screen and (max-width:991px) and (hover:none) and (orientation: portrait){
+    .background{
+        background-position-x: -800px;
+    }
+}
+@media screen and (max-width:767px) and (hover:none) and (orientation: portrait){
+    .project-image{
+        height: 248px;
+        width: 440px;
+    }
+    .row.project-text-height{
+        width: 440px;
+    }
+    .background{
+        background-position-x: -1000px;
+    }
+}
+@media screen and (max-width:550px) and (hover:none) and (orientation: portrait){
+    .project-image{
+        height: 211px;
+        width: 375px;
+    }
+    .row.project-text-height{
+        width: 375px;
+    }
+    .background{  
+        background-position-x: -1100px;
+    }
+    header h1{
+        font-size: 45px;
+    }
+    .container-box-padding{
+        padding: 15px 15px 15px 15px
+    }
+}
+@media screen and (max-width:450px) and (hover:none) and (orientation: portrait){
+    .project-image{
+        height: 158px;
+        width: 280px;
+    }
+    .row.project-text-height{
+        width: 280px;
+    }
+    .background{  
+        background-position-x: -1200px;
+    }
+}
+@media screen and (max-width:350px) and (hover:none) and (orientation: portrait){
+    .project-image{
+        height: 106px;
+        width: 188px;
+    }
+    .row.project-text-height{
+        width: 188px;
+    }
+    .background{  
+        background-position-x: -1300px;
+    }
+}
