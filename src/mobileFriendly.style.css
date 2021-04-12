@@ -16,10 +16,6 @@
 }
 @media screen and (max-width:767px) and (hover:none) and (orientation: portrait){
     .project-image{
-        height: 248px;
-        width: 440px;
-    }
-    .row.project-text-height{
         width: 440px;
     }
     .background{
@@ -28,10 +24,6 @@
 }
 @media screen and (max-width:550px) and (hover:none) and (orientation: portrait){
     .project-image{
-        height: 211px;
-        width: 375px;
-    }
-    .row.project-text-height{
         width: 375px;
     }
     .background{  
@@ -46,10 +38,6 @@
 }
 @media screen and (max-width:450px) and (hover:none) and (orientation: portrait){
     .project-image{
-        height: 158px;
-        width: 280px;
-    }
-    .row.project-text-height{
         width: 280px;
     }
     .background{  
@@ -58,10 +46,6 @@
 }
 @media screen and (max-width:350px) and (hover:none) and (orientation: portrait){
     .project-image{
-        height: 106px;
-        width: 188px;
-    }
-    .row.project-text-height{
         width: 188px;
     }
     .background{  

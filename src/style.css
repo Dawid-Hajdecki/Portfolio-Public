@@ -61,9 +61,8 @@ small{
 .technology-info{
   font-size:18px;
   height: 35px;
-  width:70px;
   text-align: center;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 12px;
   border: 1px solid black;
   color:#ccc;
@@ -94,42 +93,16 @@ small{
   text-align: center;
 }
 .project-image{
-  height: 300px;
   width: 533px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  transition: 0.5s;
-}
-.project-text-height{
-  height: 80%;
 }
 .project-text{
-  height:100%;
-  opacity:1;
-  font-size: 35px;
-  
-}
-.project-image .row .col{
-  padding: 0;
-}
-.project-image .row .col a{
-  color: blue;
-  text-decoration: none;
-}
-.project-text:hover{
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.project-technologies-height{
-  height: 20%;
-}
-.row.project-text-height{
-  width:533px;
-  margin: 0;
+  font-size: 20px;
 }
 .mobile{
   display:none;
+}
+ul li{
+  margin:3px;
 }
 @media screen and (max-width:1200px) and (hover:hover){
   .background{
@@ -143,10 +116,6 @@ small{
 }
 @media screen and (max-width:767px) and (hover:hover){
   .project-image{
-    height: 248px;
-    width: 440px;
-  }
-  .row.project-text-height{
     width: 440px;
   }
   .background{
@@ -155,7 +124,6 @@ small{
 }
 @media screen and (max-width:550px) and (hover:hover){
   .project-image{
-    height: 211px;
     width: 375px;
   }
   .row.project-text-height{
@@ -167,19 +135,11 @@ small{
 }
 @media screen and (max-width:450px) and (hover:hover){
   .project-image{
-    height: 158px;
-    width: 280px;
-  }
-  .row.project-text-height{
     width: 280px;
   }
 }
 @media screen and (max-width:350px) and (hover:hover){
   .project-image{
-    height: 106px;
-    width: 188px;
-  }
-  .row.project-text-height{
     width: 188px;
   }
 }

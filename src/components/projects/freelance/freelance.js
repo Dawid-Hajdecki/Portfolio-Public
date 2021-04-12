@@ -1,35 +1,33 @@
-import React, {useState} from 'react';
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import  { Carousel } from 'react-responsive-carousel';
 
-import ProjectImage from './freelance.jpg';
+import ProjectImageFreelance from './freelance.jpg';
+import ProjectImageFreelanceShowcase from './freelance-showcase.jpg';
 
 const Freelance = () => {
-    const [style, setStyle] = useState({display: 'none'});
     return (
         <>
-            <div className="project-image box-shadow" style={{ backgroundImage: `url(${ProjectImage})`}} onMouseEnter={e => {setStyle({display: 'grid'});}} onMouseLeave={e => {setStyle({display: 'none'})}}>
-                <div className="row project-text-height">
-                    <div className="col" style={style}>
-                        <a href="http://freelance.hajdecki.com/" target="_blank"  rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Web
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col" style={style}>
-                        <a href="https://github.com/Voxuuu/Freelance-public" target="_blank" rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Github
-                            </div>
-                        </a>
-                    </div>
+            <div className="project-text">
+                <a href="http://freelance.hajdecki.com/" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Freelance-public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            </div>
+            <Carousel className="project-image">
+                <div>
+                    <img src={ProjectImageFreelance}/>
+                    <p className="legend">Top of Page</p>
                 </div>
-                <div className="row project-technologies-height">
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">HTML</div>
-                    </div>
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">jQuery</div>
-                    </div>
+                <div>
+                    <img src={ProjectImageFreelanceShowcase}/>
+                    <p className="legend">Showcase Open</p>
+                </div>
+            </Carousel>
+            <div className="row">
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">HTML</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">jQuery</div>
                 </div>
             </div>
             <p className="mt-4">
@@ -39,12 +37,7 @@ const Freelance = () => {
                     <br/><br/>This was a fun project, I was trying to use as many new techniques and technologies as possible, creating something that I could showcase and be proud of. Although the development of this project was finished, I didn't find time to compress the images and fill out the dummy text. So, this project was never actually used in a university interview.
                     <br/><br/>This project is mostly HTML. jQuery was used to show and hide the images.
                 </p>
-                <small>Last Update: 01/04/2021</small>
             </p>
-            <div>
-                <a href="http://freelance.hajdecki.com/" target="_blank" rel="noreferrer" className="mr-2">Web</a>
-                <a href="https://github.com/Voxuuu/Freelance-public" target="_blank" rel="noreferrer">Github</a>
-            </div>
         </>
     );
 }

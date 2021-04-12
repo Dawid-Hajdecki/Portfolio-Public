@@ -1,35 +1,33 @@
-import React, {useState} from 'react';
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import  { Carousel } from 'react-responsive-carousel';
 
-import ProjectImage from './professionalism.jpg';
+import ProjectImageProfessionalism from './professionalism.jpg';
+import ProjectImageProfessionalismResponsive from './professionalism-responsive.jpg';
 
 const Professionalism = () => {
-    const [style, setStyle] = useState({display: 'none'});
     return (
         <>
-            <div className="project-image box-shadow" style={{ backgroundImage: `url(${ProjectImage})`}} onMouseEnter={e => {setStyle({display: 'grid'});}} onMouseLeave={e => {setStyle({display: 'none'})}}>
-                <div className="row project-text-height">
-                    <div className="col" style={style}>
-                        <a href="http://professionalism.hajdecki.com/" target="_blank"  rel="noreferrer">
-                            <div className="grid-center project-text">
-                                Web
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col" style={style}>
-                        <a href="https://github.com/Voxuuu/Professionalism-Public" target="_blank" rel="noreferrer">
-                            <div className="grid-center project-text">
-                                Github
-                            </div>
-                        </a>
-                    </div>
+            <div className="project-text">
+                <a href="http://professionalism.hajdecki.com/" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Professionalism-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            </div>
+            <Carousel className="project-image">
+                <div>
+                    <img src={ProjectImageProfessionalism}/>
+                    <p className="legend">Top of Page</p>
                 </div>
-                <div className="row project-technologies-height">
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">HTML</div>
-                    </div>
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">JS</div>
-                    </div>
+                <div>
+                    <img src={ProjectImageProfessionalismResponsive}/>
+                    <p className="legend">Responsive layout</p>
+                </div>
+            </Carousel>
+            <div className="row">
+                <div className="grid-center">
+                    <div className="ml-4 technology-info">HTML</div>
+                </div>
+                <div className="grid-center">
+                    <div className="ml-4 technology-info">JS</div>
                 </div>
             </div>
             <p className="mt-4">
@@ -38,12 +36,7 @@ const Professionalism = () => {
                     <br/><br/>This was a project for my module: Creative Technologies Professionalism. We had to write a blog about Freelancing, Creative Industries and Professionalism. As a web student who at that moment had a bit more free time, I thought that I would create my own simple blog.
                     <br/><br/>This project is mostly HTML, working with CSS and producing a blog that is aesthetically pleasing. There is a small amount of JavaScript, that is used to make this blog responsive. The sidebar collapses and has a button to expand and collapse again.
                 </p>
-                <small>Last Update: 01/04/2021</small>
             </p>
-            <div>
-                <a href="http://professionalism.hajdecki.com/" target="_blank" rel="noreferrer" className="mr-2">Web</a>
-                <a href="https://github.com/Voxuuu/Professionalism-Public" target="_blank" rel="noreferrer">Github</a>
-            </div>
         </>
   );
 }

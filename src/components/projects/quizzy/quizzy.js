@@ -1,35 +1,55 @@
-import React, {useState} from 'react';
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import  { Carousel } from 'react-responsive-carousel';
 
-import ProjectImage from './quizzy.jpg';
+import ProjectImageQuizzy from './quizzy.jpg';
+import ProjectImageQuizzyProfile from './quizzy-profile.jpg';
+import ProjectImageQuizzyQuiz from './quizzy-quiz.jpg';
+import ProjectImageQuizzyQuizAdmin from './quizzy-quiz-admin.jpg';
 
 const Quizzy = () => {
-    const [style, setStyle] = useState({display: 'none'});
     return (
         <>
-            <div className="project-image box-shadow" style={{ backgroundImage: `url(${ProjectImage})`}} onMouseEnter={e => {setStyle({display: 'grid'});}} onMouseLeave={e => {setStyle({display: 'none'})}}>
-                <div className="row project-text-height">
-                    <div className="col" style={style}>
-                        <a href="https://afternoon-mesa-24850.herokuapp.com" target="_blank" rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Web
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col" style={style}>
-                        <a href="https://github.com/Voxuuu/Quizzy-Public" target="_blank" rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Github
-                            </div>
-                        </a>
-                    </div>
+            <div className="project-text">
+                <a href="https://afternoon-mesa-24850.herokuapp.com" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Quizzy-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            </div>
+            <Carousel className="project-image">
+                <div>
+                    <img src={ProjectImageQuizzy}/>
+                    <p className="legend">Home Page</p>
                 </div>
-                <div className="row project-technologies-height">
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">MERN</div>
-                    </div>
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">HTML</div>
-                    </div>
+                <div>
+                    <img src={ProjectImageQuizzyProfile}/>
+                    <p className="legend">Admin's Profile Page</p>
+                </div>
+                <div>
+                    <img src={ProjectImageQuizzyQuiz}/>
+                    <p className="legend">Quiz Page</p>
+                </div>
+                <div>
+                    <img src={ProjectImageQuizzyQuizAdmin}/>
+                    <p className="legend">Admin's Quiz Page</p>
+                </div>
+            </Carousel>
+            <div className="row">
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">HTML</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">CSS</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">MongoDb</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">Express</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">React.js</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">Node.js</div>
                 </div>
             </div>
             <p className="mt-4">
@@ -41,12 +61,7 @@ const Quizzy = () => {
                     <br/><br/>There are also user groups: Regular and Admin. There are a couple of extra functionalities that an Admin can do. They can ban and unban users, join any group without their password and perform CRUD on any groups, quizzies and questions (Editing a question is disabled). Any user group can perform CRUD (without account deletion) on their account.
                     <br/><br/>This project is 90% complete. I still want to add the possibility to retrieve a password, delete an account, and make sure that it is functional on all screen sizes, plus some minor changes will happen.
                 </p>
-                <small>Last Update: 01/04/2021</small>
             </p>
-            <div>
-                <a href="https://afternoon-mesa-24850.herokuapp.com" target="_blank" rel="noreferrer" className="mr-2">Web</a>
-                <a href="https://github.com/Voxuuu/Quizzy-Public" target="_blank" rel="noreferrer">Github</a>
-            </div>
         </>
     );
 }

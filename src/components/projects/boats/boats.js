@@ -1,35 +1,50 @@
-import React, {useState} from 'react';
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import  { Carousel } from 'react-responsive-carousel';
 
-import ProjectImage from './boats.jpg';
+import ProjectImageBoats from './boats.jpg';
+import ProjectImageBoatsSpeakers from './boats-speakers.jpg';
+import ProjectImageBoatsLogin from './boats-login.jpg';
 
 const Boats = () => {
-    const [style, setStyle] = useState({display: 'none'});
     return (
         <>
-            <div className="project-image box-shadow" style={{ backgroundImage: `url(${ProjectImage})`}} onMouseEnter={e => {setStyle({display: 'grid'});}} onMouseLeave={e => {setStyle({display: 'none'})}}>
-                <div className="row project-text-height">
-                    <div className="col" style={style}>
-                        <a href="https://boats-conference.herokuapp.com/" target="_blank" rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Web
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col" style={style}>
-                        <a href="https://github.com/Voxuuu/Boats-Public" target="_blank" rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Github
-                            </div>
-                        </a>
-                    </div>
+            <div className="project-text">
+                <a href="https://boats-conference.herokuapp.com/" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Boats-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            </div>
+            <Carousel className="project-image">
+                <div>
+                    <img src={ProjectImageBoats}/>
+                    <p className="legend">Home Page</p>
                 </div>
-                <div className="row project-technologies-height">
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">MERN</div>
-                    </div>
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">HTML</div>
-                    </div>
+                <div>
+                    <img src={ProjectImageBoatsSpeakers}/>
+                    <p className="legend">Speakers Page</p>
+                </div>
+                <div>
+                    <img src={ProjectImageBoatsLogin}/>
+                    <p className="legend">Login Page</p>
+                </div>
+            </Carousel>
+            <div className="row">
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">HTML</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">CSS</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">MongoDb</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">Express</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">React.js</div>
+                </div>
+                <div className="grid-center my-2">
+                    <div className="ml-4 technology-info">Node.js</div>
                 </div>
             </div>
             <p className="mt-4">
@@ -38,12 +53,7 @@ const Boats = () => {
                     <br/><br/>This was my first project working with React. We split our group into front and back end. This was where I actually started playing around with React but also reminding myself of the basics of HTML and CSS.
                     <br/><br/>This idea was to create a conference app, where a user could join, create an account and a profile. They were also able to read through the information about the existing conference and the previous conferences.
                 </p>
-                <small>Last Update: 01/04/2021</small>
             </p>
-            <div>
-                <a href="https://boats-conference.herokuapp.com/" target="_blank" rel="noreferrer" className="mr-2">Web</a>
-                <a href="https://github.com/Voxuuu/Boats-Public" target="_blank" rel="noreferrer">Github</a>
-            </div>
         </>
     );
 }

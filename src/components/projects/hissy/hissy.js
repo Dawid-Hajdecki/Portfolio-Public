@@ -1,38 +1,41 @@
-import React, {useState} from 'react';
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import  { Carousel } from 'react-responsive-carousel';
 
-import ProjectImage from './hissy.jpg';
+import ProjectImageHissy from './hissy.jpg';
+import ProjectImageHissyRed from './hissy-red.jpg';
+import ProjectImageHissyQuiz from './hissy-quiz.jpg';
 
 const Hissy = () => {
-    const [style, setStyle] = useState({display: 'none'});
     return (
         <>
-            <div className="project-image box-shadow" style={{ backgroundImage: `url(${ProjectImage})`}} onMouseEnter={e => {setStyle({display: 'grid'});}} onMouseLeave={e => {setStyle({display: 'none'})}}>
-                <div className="row project-text-height">
-                    <div className="col" style={style}>
-                        <a href="http://hissy.hajdecki.com/" target="_blank"  rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Web
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col" style={style}>
-                        <a href="https://github.com/Voxuuu/Hissy-Public" target="_blank" rel="noreferrer">
-                            <div className="project-text grid-center">
-                                Github
-                            </div>
-                        </a>
-                    </div>
+            <div className="project-text">
+                <a href="http://hissy.hajdecki.com" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Hissy-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            </div>
+            <Carousel className="project-image">
+                <div>
+                    <img src={ProjectImageHissy}/>
+                    <p className="legend">Home Page</p>
                 </div>
-                <div className="row project-technologies-height">
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">PHP</div>
-                    </div>
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">HTML</div>
-                    </div>
-                    <div className="col grid-center" style={style}>
-                        <div className="ml-4 technology-info">JS</div>
-                    </div>
+                <div>
+                    <img src={ProjectImageHissyRed}/>
+                    <p className="legend">Red Colour Scheme</p>
+                </div>
+                <div>
+                    <img src={ProjectImageHissyQuiz}/>
+                    <p className="legend">Quiz Page</p>
+                </div>
+            </Carousel>
+            <div className="row">
+                <div className="grid-center">
+                    <div className="ml-4 technology-info">PHP</div>
+                </div>
+                <div className="grid-center">
+                    <div className="ml-4 technology-info">HTML</div>
+                </div>
+                <div className="grid-center">
+                    <div className="ml-4 technology-info">JS</div>
                 </div>
             </div>
             <p className="mt-4">
@@ -42,12 +45,7 @@ const Hissy = () => {
                     <br/><br/>This project was focused on creating a web application, where a user could perform full CRUD on their account. There was also an option to finish quizzes and score some points, but it was never fully developed.
                     <br/><br/>PHP was the main technology used here but I did add a little bit of JavaScript to make the quizzes scoring system function.
                 </p>
-                <small>Last Update: 01/04/2021</small>
             </p>
-            <div>
-                <a href="http://hissy.hajdecki.com" target="_blank" rel="noreferrer" className="mr-2">Web</a>
-                <a href="https://github.com/Voxuuu/Hissy-Public" target="_blank" rel="noreferrer">Github</a>
-            </div>
         </>
     );
 }
