@@ -16,19 +16,19 @@ const Quizzy = () => {
             </div>
             <Carousel className="project-image">
                 <div>
-                    <img src={ProjectImageQuizzy}/>
+                    <img src={ProjectImageQuizzy} alt="Home Page"/>
                     <p className="legend">Home Page</p>
                 </div>
                 <div>
-                    <img src={ProjectImageQuizzyProfile}/>
+                    <img src={ProjectImageQuizzyProfile} alt="Admin's Profile Page"/>
                     <p className="legend">Admin's Profile Page</p>
                 </div>
                 <div>
-                    <img src={ProjectImageQuizzyQuiz}/>
+                    <img src={ProjectImageQuizzyQuiz} alt="Quiz Page"/>
                     <p className="legend">Quiz Page</p>
                 </div>
                 <div>
-                    <img src={ProjectImageQuizzyQuizAdmin}/>
+                    <img src={ProjectImageQuizzyQuizAdmin} alt="Admin's Quiz Page"/>
                     <p className="legend">Admin's Quiz Page</p>
                 </div>
             </Carousel>
@@ -52,14 +52,13 @@ const Quizzy = () => {
                     <div className="ml-4 technology-info">Node.js</div>
                 </div>
             </div>
-            <p className="mt-4">
+            <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px ">
                     <b>This is my Honours Project</b>
                     <br/><br/>Throughout the last couple of months, I have focused on developing something that I will be really proud of. To this day, I can say that this project is the best that I have ever created. It allowed me to expand my programming skills and develop my strengths and weaknesses, to the point that I am ready to start looking for a job.
                     <br/><br/>This is an educational quiz app, allowing students and teachers to interact during and outside of classes. After opening this app, you first have to register/log in. When this is done, you can create groups or join existing groups, open and finish quizzes (that exist in that group). After each quiz is finished, you get feedback on each question.
                     <br/><br/>As an admin of a specific group, you are allowed to perform CRUD in any given situation regarding it. This means you can use it in any quiz or any question in that particular group (Editing a question is disabled). You can also view the users that have attempted any quiz made in your group and see their answers.
                     <br/><br/>There are also user groups: Regular and Admin. There are a couple of extra functionalities that an Admin can do. They can ban and unban users, join any group without their password and perform CRUD on any groups, quizzies and questions (Editing a question is disabled). Any user group can perform CRUD (without account deletion) on their account.
-                    <br/><br/>This project is 90% complete. I still want to add the possibility to retrieve a password, delete an account, and make sure that it is functional on all screen sizes, plus some minor changes will happen.
                 </p>
             </p>
         </>

@@ -14,11 +14,11 @@ const Freelance = () => {
             </div>
             <Carousel className="project-image">
                 <div>
-                    <img src={ProjectImageFreelance}/>
+                    <img src={ProjectImageFreelance} alt="Top of Page"/>
                     <p className="legend">Top of Page</p>
                 </div>
                 <div>
-                    <img src={ProjectImageFreelanceShowcase}/>
+                    <img src={ProjectImageFreelanceShowcase} alt="Showcase Open"/>
                     <p className="legend">Showcase Open</p>
                 </div>
             </Carousel>
@@ -30,7 +30,7 @@ const Freelance = () => {
                     <div className="ml-4 technology-info">jQuery</div>
                 </div>
             </div>
-            <p className="mt-4">
+            <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px">
                 <b>This was a freelance project for a family member</b>
                     <br/><br/>My idea behind this project was to learn new technology, develop my skills and create something from scratch for a "client". A member of my family needed a portfolio for their university and I took on a challenge to create it.

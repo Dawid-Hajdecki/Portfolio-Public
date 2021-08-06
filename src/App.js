@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
 
 import Header from './components/header';
 import SectionAbout from './components/sectionAbout'

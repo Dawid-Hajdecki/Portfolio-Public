@@ -36,11 +36,11 @@ const Section_skills = () => {
                             <h4>Personal:</h4>
                             <ul>
                                 <li>Ability to manage time effectively</li>
-                                <li>Hard Working and Motivated student</li>
-                                <li>Understand and take criticism well</li>
+                                <li>Hard Working and Motivated</li>
+                                <li>Understand and take, criticism well</li>
                                 <li>Motivated to learn new technologies</li>
                                 <li>Capable of working alone and in groups</li>
-                                <li>Adapt and learn without much trouble</li>
+                                <li>Adapt and learn without much trouble or time</li>
                             </ul>  
                         </div>
                     </div>

@@ -12,10 +12,16 @@ const Section_social = () => {
                             <button className="btn btn-primary" onClick={() =>  navigator.clipboard.writeText('Hajdecki.Dawid@gmail.com')}>Copy</button>
                         </div>
                         <div className="col">
-                            <h4>Linked In:</h4><h5><a href="https://www.linkedin.com/in/dawid-hajdecki-9b761214b/" target="_blank" rel="noreferrer">Dawid Hajdecki</a></h5>
+                            <h4>Linked In:</h4><h5><a href="https://linkedin.com/in/dawid-hajdecki-9b761214b/" target="_blank" rel="noreferrer">Dawid Hajdecki</a></h5>
                         </div>
                         <div className="col">
-                            <h4>Instagram:</h4><h5><a href="https://www.instagram.com/rl.dawid/" target="_blank" rel="noreferrer">rl.Dawid</a></h5>
+                            <h4>CodeWars:</h4><h5><a href="https://codewars.com/users/VoxPl" target="_blank" rel="noreferrer">Vox</a></h5>
+                        </div>
+                        <div className="col">
+                            <h4>Github:</h4><h5><a href="https://github.com/Voxuuu" target="_blank" rel="noreferrer">Voxuuu</a></h5>
+                        </div>
+                        <div className="col">
+                            <h4>Instagram:</h4><h5><a href="https://instagram.com/rl.dawid/" target="_blank" rel="noreferrer">rl.Dawid</a></h5>
                         </div>
                     </div>
                 </div>

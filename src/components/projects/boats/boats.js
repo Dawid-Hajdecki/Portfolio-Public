@@ -15,15 +15,15 @@ const Boats = () => {
             </div>
             <Carousel className="project-image">
                 <div>
-                    <img src={ProjectImageBoats}/>
+                    <img src={ProjectImageBoats} alt="Home Page"/>
                     <p className="legend">Home Page</p>
                 </div>
                 <div>
-                    <img src={ProjectImageBoatsSpeakers}/>
+                    <img src={ProjectImageBoatsSpeakers} alt="Speakers Page"/>
                     <p className="legend">Speakers Page</p>
                 </div>
                 <div>
-                    <img src={ProjectImageBoatsLogin}/>
+                    <img src={ProjectImageBoatsLogin} alt="Login Page"/>
                     <p className="legend">Login Page</p>
                 </div>
             </Carousel>
@@ -47,7 +47,7 @@ const Boats = () => {
                     <div className="ml-4 technology-info">Node.js</div>
                 </div>
             </div>
-            <p className="mt-4">
+            <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px">
                 <b>This was a group project in my 4th year of Uni</b>
                     <br/><br/>This was my first project working with React. We split our group into front and back end. This was where I actually started playing around with React but also reminding myself of the basics of HTML and CSS.

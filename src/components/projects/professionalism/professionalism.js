@@ -14,11 +14,11 @@ const Professionalism = () => {
             </div>
             <Carousel className="project-image">
                 <div>
-                    <img src={ProjectImageProfessionalism}/>
+                    <img src={ProjectImageProfessionalism} alt="Top of Page"/>
                     <p className="legend">Top of Page</p>
                 </div>
                 <div>
-                    <img src={ProjectImageProfessionalismResponsive}/>
+                    <img src={ProjectImageProfessionalismResponsive} alt="Responsive layout"/>
                     <p className="legend">Responsive layout</p>
                 </div>
             </Carousel>
@@ -30,7 +30,7 @@ const Professionalism = () => {
                     <div className="ml-4 technology-info">JS</div>
                 </div>
             </div>
-            <p className="mt-4">
+            <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px">
                 <b>This was a project in my 3rd year of Uni</b>
                     <br/><br/>This was a project for my module: Creative Technologies Professionalism. We had to write a blog about Freelancing, Creative Industries and Professionalism. As a web student who at that moment had a bit more free time, I thought that I would create my own simple blog.
