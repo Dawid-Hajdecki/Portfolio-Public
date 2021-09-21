@@ -13,7 +13,7 @@ const Boats = () => {
                 <a href="https://boats-conference.herokuapp.com/" target="_blank" rel="noreferrer">Web</a>
                 <a href="https://github.com/Voxuuu/Boats-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
             </div>
-            <Carousel className="project-image">
+            <Carousel className="project-web-image">
                 <div>
                     <img src={ProjectImageBoats} alt="Home Page"/>
                     <p className="legend">Home Page</p>

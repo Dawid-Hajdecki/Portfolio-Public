@@ -15,7 +15,7 @@
     }
 }
 @media screen and (max-width:767px) and (hover:none) and (orientation: portrait){
-    .project-image{
+    .project-web-image{
         width: 440px;
     }
     .background{
@@ -23,7 +23,7 @@
     }
 }
 @media screen and (max-width:550px) and (hover:none) and (orientation: portrait){
-    .project-image{
+    .project-web-image{
         width: 375px;
     }
     .background{  
@@ -37,7 +37,7 @@
     }
 }
 @media screen and (max-width:450px) and (hover:none) and (orientation: portrait){
-    .project-image{
+    .project-web-image{
         width: 280px;
     }
     .background{  
@@ -45,7 +45,7 @@
     }
 }
 @media screen and (max-width:350px) and (hover:none) and (orientation: portrait){
-    .project-image{
+    .project-web-image{
         width: 188px;
     }
     .background{  

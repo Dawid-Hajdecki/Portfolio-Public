@@ -1,19 +1,19 @@
 import React from 'react';
 
-import Quizzy from './projects/quizzy/quizzy';
-import Todo from './projects/Todo/todo';
-import Boats from './projects/boats/boats';
-import Professionalism from './projects/professionalism/professionalism';
-import Hissy from './projects/hissy/hissy';
-import Freelance from './projects/freelance/freelance';
-import Portfolio from './projects/portfolio/portfolio';
+import Quizzy from './webProjects/quizzy/quizzy';
+import Todo from './webProjects/Todo/todo';
+import Boats from './webProjects/boats/boats';
+import Professionalism from './webProjects/professionalism/professionalism';
+import Hissy from './webProjects/hissy/hissy';
+import Freelance from './webProjects/freelance/freelance';
+import Portfolio from './webProjects/portfolio/portfolio';
 
-const Section_projects = () => {
+const Section_projectsWeb = () => {
     return (
         <>
             <section className="mb-4">
                 <div className="container box-shadow container-box-padding margin-top-20px">
-                    <h1>Projects</h1>
+                    <h1>Projects - Web</h1>
                     <ul className="nav nav-tabs">
                         <li className="active"><a href="#Quizzy" data-toggle="tab">Quizzy</a></li>
                         <li><a href="#Todo" data-toggle="tab">Todo</a></li>
@@ -52,4 +52,4 @@ const Section_projects = () => {
     );
 }
 
-export default Section_projects;
+export default Section_projectsWeb;

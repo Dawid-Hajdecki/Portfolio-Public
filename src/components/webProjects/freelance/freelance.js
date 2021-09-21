@@ -12,7 +12,7 @@ const Freelance = () => {
                 <a href="http://freelance.hajdecki.com/" target="_blank" rel="noreferrer">Web</a>
                 <a href="https://github.com/Voxuuu/Freelance-public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
             </div>
-            <Carousel className="project-image">
+            <Carousel className="project-web-image">
                 <div>
                     <img src={ProjectImageFreelance} alt="Top of Page"/>
                     <p className="legend">Top of Page</p>

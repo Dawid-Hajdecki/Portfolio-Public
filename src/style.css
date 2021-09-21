@@ -22,10 +22,6 @@ header{
 section .container{
   background-color: white;
 }
-section .container:hover{
-  transition: 0.1s;
-  transform: scale(1.005);
-}
 header h1{
   font-size:72px;
 }
@@ -91,8 +87,11 @@ small{
 .text-center{
   text-align: center;
 }
-.project-image{
+.project-web-image{
   width: 533px;
+}
+.project-graphic-image{
+  width: 312px;
 }
 .project-text{
   font-size: 20px;
@@ -122,7 +121,7 @@ section .container{
   }
 }
 @media screen and (max-width:767px) and (hover:hover){
-  .project-image{
+  .project-web-image{
     width: 440px;
   }
   .background{
@@ -130,7 +129,7 @@ section .container{
   }
 }
 @media screen and (max-width:550px) and (hover:hover){
-  .project-image{
+  .project-web-image{
     width: 375px;
   }
   .row.project-text-height{
@@ -141,12 +140,12 @@ section .container{
   }
 }
 @media screen and (max-width:450px) and (hover:hover){
-  .project-image{
+  .project-web-image{
     width: 280px;
   }
 }
 @media screen and (max-width:350px) and (hover:hover){
-  .project-image{
+  .project-web-image{
     width: 188px;
   }
 }

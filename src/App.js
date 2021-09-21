@@ -2,7 +2,8 @@ import React from 'react';
 
 import Header from './components/header';
 import SectionAbout from './components/sectionAbout'
-import SectionProjects from './components/sectionProjects'
+import SectionProjectsWeb from './components/sectionProjectsWeb'
+import SectionProjectsGraphic from './components/sectionProjectsGraphic'
 import SectionSocial from './components/sectionSocial'
 import SectionSkills from './components/sectionSkills'
 
@@ -22,7 +23,8 @@ const App = () => {
     <>
       <div className="background" style={{ backgroundImage: `url(${Background})`}}>
         <Header/>
-        <SectionProjects/>
+        <SectionProjectsWeb/>
+        <SectionProjectsGraphic/>
         <SectionSkills/>
         <SectionAbout/>
         <SectionSocial/>

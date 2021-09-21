@@ -13,7 +13,7 @@ const Hissy = () => {
                 <a href="http://hissy.hajdecki.com" target="_blank" rel="noreferrer">Web</a>
                 <a href="https://github.com/Voxuuu/Hissy-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
             </div>
-            <Carousel className="project-image">
+            <Carousel className="project-web-image">
                 <div>
                     <img src={ProjectImageHissy} alt="Home Page"/>
                     <p className="legend">Home Page</p>

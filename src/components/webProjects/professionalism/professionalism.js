@@ -12,7 +12,7 @@ const Professionalism = () => {
                 <a href="http://professionalism.hajdecki.com/" target="_blank" rel="noreferrer">Web</a>
                 <a href="https://github.com/Voxuuu/Professionalism-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
             </div>
-            <Carousel className="project-image">
+            <Carousel className="project-web-image">
                 <div>
                     <img src={ProjectImageProfessionalism} alt="Top of Page"/>
                     <p className="legend">Top of Page</p>

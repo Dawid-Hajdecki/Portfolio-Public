@@ -14,7 +14,7 @@ const Quizzy = () => {
                 <a href="http://todo.hajdecki.com/" target="_blank" rel="noreferrer">Web</a>
                 <a href="https://github.com/Voxuuu/Todo-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
             </div>
-            <Carousel className="project-image">
+            <Carousel className="project-web-image">
                 <div>
                     <img src={ProjectImageTodo} alt="Home Page"/>
                     <p className="legend">Home Page</p>

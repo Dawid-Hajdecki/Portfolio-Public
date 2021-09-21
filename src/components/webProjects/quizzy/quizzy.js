@@ -14,7 +14,7 @@ const Quizzy = () => {
                 <a href="https://afternoon-mesa-24850.herokuapp.com" target="_blank" rel="noreferrer">Web</a>
                 <a href="https://github.com/Voxuuu/Quizzy-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
             </div>
-            <Carousel className="project-image">
+            <Carousel className="project-web-image">
                 <div>
                     <img src={ProjectImageQuizzy} alt="Home Page"/>
                     <p className="legend">Home Page</p>
