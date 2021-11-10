@@ -11,8 +11,8 @@ import Portfolio from './webProjects/portfolio/portfolio';
 const Section_projectsWeb = () => {
     return (
         <>
-            <section className="mb-4">
-                <div className="container box-shadow container-box-padding margin-top-20px">
+            <section className="pb-4">
+                <div className="container box-shadow container-box-padding">
                     <h1>Projects - Web</h1>
                     <ul className="nav nav-tabs">
                         <li className="active"><a href="#Quizzy" data-toggle="tab">Quizzy</a></li>

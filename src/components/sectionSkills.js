@@ -3,8 +3,8 @@ import React from 'react';
 const Section_skills = () => {
     return (
         <>
-            <section className="mb-4">
-                <div className="container box-shadow container-box-padding margin-top-20px">
+            <section className="pb-4">
+                <div className="container box-shadow container-box-padding">
                     <h1>Skills</h1>
                     <div className="row">
                         <div className="col-12 col-md-5">

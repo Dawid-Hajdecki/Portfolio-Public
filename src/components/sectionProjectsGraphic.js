@@ -7,8 +7,8 @@ import Pingu from './graphicProjects/Pingu/pingu';
 const Section_projectsGraphic = () => {
     return (
         <>
-            <section className="mb-4">
-                <div className="container box-shadow container-box-padding margin-top-20px">
+            <section className="pb-4">
+                <div className="container box-shadow container-box-padding">
                     <h1>Projects - Graphic</h1>
                     <ul className="nav nav-tabs">
                         <li className="active"><a href="#VitalBox" data-toggle="tab">Vital Box</a></li>

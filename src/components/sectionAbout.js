@@ -3,8 +3,8 @@ import React from 'react';
 const Section_about = () => {
     return (
         <>
-            <section className="mb-4" id="About">
-                <div className="container box-shadow container-box-padding margin-top-20px">
+            <section className="pb-4" id="About">
+                <div className="container box-shadow container-box-padding">
                     <h1>About</h1>
                     <p>
                         Hello, my name is Dawid Hajdecki, First-class graduate in Web and Mobile Development at the University of the West of Scotland. Every day, I seek knowledge in order to develop and improve my personal and technical skills. I always find learning new technologies and techniques fulfilling.
