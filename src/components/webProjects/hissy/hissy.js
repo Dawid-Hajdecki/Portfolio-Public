@@ -9,9 +9,9 @@ import ProjectImageHissyQuiz from './hissy-quiz.jpg';
 const Hissy = () => {
     return (
         <>
-            <div className="project-text">
-                <a href="http://hissy.hajdecki.com" target="_blank" rel="noreferrer">Web</a>
-                <a href="https://github.com/Voxuuu/Hissy-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            <div className="row ml-1">
+                <a href="http://hissy.hajdecki.com" className="projects-button mr-3 my-2" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Hissy-Public" className="projects-button mr-3 my-2" target="_blank" rel="noreferrer">Github</a>
             </div>
             <Carousel className="project-web-image">
                 <div>
@@ -27,16 +27,10 @@ const Hissy = () => {
                     <p className="legend">Quiz Page</p>
                 </div>
             </Carousel>
-            <div className="row">
-                <div className="grid-center">
-                    <div className="ml-4 technology-info">PHP</div>
-                </div>
-                <div className="grid-center">
-                    <div className="ml-4 technology-info">HTML</div>
-                </div>
-                <div className="grid-center">
-                    <div className="ml-4 technology-info">JS</div>
-                </div>
+            <div className="row my-2 ml-1">
+                <div className="mr-3 my-2 technology-info">PHP</div>
+                <div className="mr-3 my-2 technology-info">HTML</div>
+                <div className="mr-3 my-2 technology-info">JS</div>
             </div>
             <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px">

@@ -21,17 +21,12 @@ header h1{
 .height-300px{
   height:300px;
 }
-.grid-center{
-  display:grid;
-  place-items: center;
-}
 header{
-  background-color: rgba(255,255,255,0.7);
   height:100%;
   width: 100%;
 }
 .background{
-  height:100%;
+  position: absolute;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -51,14 +46,24 @@ small{
   height: 35px;
   text-align: center;
   padding: 5px 10px;
-  border-radius: 12px;
-  border: 1px solid black;
-  color:#ccc;
-  background: linear-gradient(135deg, #021d25 0%, #276888 100%);
-  transition: 0.3s;
+  border-radius: 5px;
+  color:white;
+  background: linear-gradient(135deg, #085467 0%, #F4C0b3 100%);
 }
-.technology-info:hover{
-  transform: scale(1.03);
+.projects-button{
+  display: inline-block;
+  font-size:18px;
+  height: 35px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color:white;
+  background: linear-gradient(135deg, #09203f 0%, #537895 100%);
+}
+.projects-button:hover{
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
 }
 .margin-top-7px{
   margin-top: 7px;
@@ -85,9 +90,6 @@ small{
 }
 .project-graphic-image{
   width: 312px;
-}
-.project-text{
-  font-size: 20px;
 }
 .mobile{
   display:none;

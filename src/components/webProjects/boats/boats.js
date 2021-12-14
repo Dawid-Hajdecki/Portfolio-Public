@@ -9,9 +9,9 @@ import ProjectImageBoatsLogin from './boats-login.jpg';
 const Boats = () => {
     return (
         <>
-            <div className="project-text">
-                <a href="https://boats-conference.herokuapp.com/" target="_blank" rel="noreferrer">Web</a>
-                <a href="https://github.com/Voxuuu/Boats-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            <div className="row ml-1">
+                <a href="https://boats-conference.herokuapp.com/" className="projects-button mr-3 my-2" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Boats-Public" className="projects-button mr-3 my-2" target="_blank" rel="noreferrer">Github</a>
             </div>
             <Carousel className="project-web-image">
                 <div>
@@ -27,25 +27,13 @@ const Boats = () => {
                     <p className="legend">Login Page</p>
                 </div>
             </Carousel>
-            <div className="row">
-                <div className="grid-center my-2">
-                    <div className="ml-4 technology-info">HTML</div>
-                </div>
-                <div className="grid-center my-2">
-                    <div className="ml-4 technology-info">CSS</div>
-                </div>
-                <div className="grid-center my-2">
-                    <div className="ml-4 technology-info">MongoDb</div>
-                </div>
-                <div className="grid-center my-2">
-                    <div className="ml-4 technology-info">Express</div>
-                </div>
-                <div className="grid-center my-2">
-                    <div className="ml-4 technology-info">React.js</div>
-                </div>
-                <div className="grid-center my-2">
-                    <div className="ml-4 technology-info">Node.js</div>
-                </div>
+            <div className="row my-2 ml-1">
+                <div className="mr-3 my-2 technology-info">HTML</div>
+                <div className="mr-3 my-2 technology-info">CSS</div>
+                <div className="mr-3 my-2 technology-info">MongoDb</div>
+                <div className="mr-3 my-2 technology-info">Express</div>
+                <div className="mr-3 my-2 technology-info">React.js</div>
+                <div className="mr-3 my-2 technology-info">Node.js</div>
             </div>
             <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px">

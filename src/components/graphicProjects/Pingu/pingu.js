@@ -8,7 +8,7 @@ import ProjectImageLogoUsed from './PinguUsed.png';
 const Boats = () => {
     return (
         <>
-            <a href="https://www.twitch.tv/mudda_tm" target="_blank" rel="noreferrer">Image Used</a>
+            <a href="https://www.twitch.tv/mudda_tm" className="projects-button mr-3 my-2" target="_blank" rel="noreferrer">Image can be viewed here</a>
             <Carousel className="project-graphic-image">
                 <div>
                     <img src={ProjectImageLogo} alt="Logo"/>
@@ -30,7 +30,7 @@ const Boats = () => {
             <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px">
                 <b>Pingu</b>
-                    <br/><br/>This was a project for a friend. It is an emote that can be used anywhere. From merchandise to an emote used on platforms like Twitch. This project is finished and can be live viewed on Mudda_TM twitch in the bottom right corner (Logo for Penguin coins as shown in the screenshot).
+                    <br/><br/>This was a project for a friend. It is an emote that can be used anywhere. From merchandise to an emote used on platforms like Twitch. This project is finished and can be live viewed on Mudda_TM twitch channel. It is positioned in the bottom part of the twitch chat (Logo for Penguin coins as shown in the screenshot).
                 </p>
             </p>
         </>

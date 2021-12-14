@@ -12,12 +12,16 @@ import './style.css';
 import './mobileFriendly.style.css';
 
 const App = () => {
+  var secure = false;
 
   const isSecure = () => {
-    return window.location.protocol === 'https:';
+    console.log(window.location.protocol)
+    secure = window.location.protocol === 'https:' ? true : false;
   }
 
-  if(!isSecure) window.location.replace('https://hajdecki.com')
+  isSecure();
+
+  //if(!secure) window.location.replace('https://hajdecki.com')
 
   return (
     <>

@@ -8,9 +8,9 @@ import ProjectImageProfessionalismResponsive from './professionalism-responsive.
 const Professionalism = () => {
     return (
         <>
-            <div className="project-text">
-                <a href="http://professionalism.hajdecki.com/" target="_blank" rel="noreferrer">Web</a>
-                <a href="https://github.com/Voxuuu/Professionalism-Public" target="_blank" rel="noreferrer" className="mx-4">Github</a>
+            <div className="row ml-1">
+                <a href="http://professionalism.hajdecki.com/" className="projects-button mr-3 my-2" target="_blank" rel="noreferrer">Web</a>
+                <a href="https://github.com/Voxuuu/Professionalism-Public" className="projects-button mr-3 my-2" target="_blank" rel="noreferrer">Github</a>
             </div>
             <Carousel className="project-web-image">
                 <div>
@@ -22,13 +22,9 @@ const Professionalism = () => {
                     <p className="legend">Responsive layout</p>
                 </div>
             </Carousel>
-            <div className="row">
-                <div className="grid-center">
-                    <div className="ml-4 technology-info">HTML</div>
-                </div>
-                <div className="grid-center">
-                    <div className="ml-4 technology-info">JS</div>
-                </div>
+            <div className="row my-2 ml-1">
+                <div className="mr-3 my-2 technology-info">HTML</div>
+                <div className="mr-3 my-2 technology-info">JS</div>
             </div>
             <p className="mt-4 project-paragraph-background">
                 <p className="overflow-200px">
